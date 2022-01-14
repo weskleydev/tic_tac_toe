@@ -137,7 +137,6 @@ class HomeController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    print(box.read('scoreboard'));
     if (box.read('scoreboard') != null) {
       scoreboard['Player 1'] = box.read('scoreboard')['Player 1'];
       scoreboard['Player 2'] = box.read('scoreboard')['Player 2'];
